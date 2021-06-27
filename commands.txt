@@ -1,0 +1,18 @@
+npm install react react-dom --save
+npm i webpack --save-dev
+npm i webpack-cli --save-dev
+
+npm i babel-preset-env --save-dev
+npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react
+npm i webpack-dev-server --save-dev
+npm i css-loader node-sass sass-loader style-loader --save-dev
+
+
+----------------
+# finaly pack then start or build with watch option to build automatically when change
+
+webpack
+
+npm start
+or
+npm run build
